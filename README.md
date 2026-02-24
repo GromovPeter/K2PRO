@@ -1,7 +1,7 @@
 # K2PRO
 Adaptive Mesh for Creality K2PRO using Orca Slicer
 
-Default is 5*5 mesh for small models also you can change printer.cfg for 7*7 and 9*9 manual with save config.
+Default is 5x5 mesh for small models also you can change printer.cfg for 7x7 and 9x9 manual with save config.
 For now i cant find the solution to change nesh size automaticly.
 
 ========================================================================
