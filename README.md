@@ -5,6 +5,7 @@ Default is 5x5 mesh for small models also you can change printer.cfg for 7x7 and
 For now i cant find the solution to change nesh size automaticly.
 
 ========================================================================
+
 ⚙️ bed_mesh Configuration (Important)
 
 Due to PRTouch spiral probing, the mesh must meet these rules:
@@ -26,8 +27,11 @@ bicubic_tension: 0.2
 horizontal_move_z: 5
 
 ⚠️ 3×3 and even grids (4×4, 6×6) are not supported.
+
 ========================================================================
+
 z_offset from orca
+
 ▶️ START_PRINT Usage for z offset config
 
 The START_PRINT macro supports the following parameters:
