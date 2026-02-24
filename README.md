@@ -43,3 +43,8 @@ example:
 
 START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] Z_OFFSET=-0.05
 ========================================================================
+
+
+
+<img width="1914" height="813" alt="image" src="https://github.com/user-attachments/assets/a8494f2f-e087-4d02-a46c-0d414dd642e6" />
+
