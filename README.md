@@ -1,17 +1,17 @@
 # K2PRO
 Adaptive Mesh for Creality K2PRO using Orca Slicer
 
+Default is 5*5 mesh for small models also you can change printer.cfg for 7*7 and 9*9 manual with save config.
+For now i cant find the solution to change nesh size automaticly.
+
 ========================================================================
 ⚙️ bed_mesh Configuration (Important)
 
 Due to PRTouch spiral probing, the mesh must meet these rules:
-
 probe_count must be:
 
 NxN
-
 odd numbers only
-
 Minimum 5×5
 
 Recommended configuration
@@ -19,7 +19,7 @@ Recommended configuration
 speed: 100
 mesh_min: 5,5
 mesh_max: 295,295
-probe_count: 9,9
+probe_count: 5,5
 mesh_pps: 2,2
 algorithm: bicubic
 bicubic_tension: 0.2
@@ -35,5 +35,5 @@ Parameter	Description
 Z_OFFSET	Runtime Z-offset (e.g. -0.04)
 
 example
-START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] Z_OFFSET=-0.05
+START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] **Z_OFFSET=-0.05**
 ========================================================================
