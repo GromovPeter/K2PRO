@@ -27,6 +27,7 @@ horizontal_move_z: 5
 
 ⚠️ 3×3 and even grids (4×4, 6×6) are not supported.
 ========================================================================
+z_offset from orca
 ▶️ START_PRINT Usage for z offset config
 
 The START_PRINT macro supports the following parameters:
@@ -34,6 +35,7 @@ The START_PRINT macro supports the following parameters:
 Parameter	Description
 Z_OFFSET	Runtime Z-offset (e.g. -0.04)
 
-example
-START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] **Z_OFFSET=-0.05**
+example:
+
+START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] Z_OFFSET=-0.05
 ========================================================================
